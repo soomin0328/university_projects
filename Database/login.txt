@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+ table,td,th{
+ border:1px solid pink;
+ }
+ th{
+ background-color:pink;
+ color:white;
+ }
+ </style>
+ </head>
+ <body>
+  <table>
+ <tr>
+ <th>고객번호</th>
+ <th>이름</th>
+ <th>성별</th>
+ <th>이용마감시간</th>
+ <th>비밀번호</th>
+ <th>
+ </tr>
+
+ <tr>
+ <td>
+<INPUT TYPE="text" NAME="Cus_num">
+
+</td>
+ <td>
+<INPUT TYPE="text" NAME="Cus_name">
+</td>
+<td>
+<INPUT TYPE="text" NAME="Cus_sex">
+</td>
+<td>
+<INPUT TYPE="text" NAME="Cus_end">
+</td>
+<td>
+<INPUT TYPE="text" NAME="Cus_pass">
+</td>
+
+ </tr>
+ 
+ </table>
+<body>
+
+<li><p>&nbsp;예약시에 비밀번호가 필요합니다. 잊지말아주세요!</p></li>
+
+ </body>
+ </html>

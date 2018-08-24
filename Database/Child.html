@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+	<title>예매</title>
+
+<script type="text/javascript">
+        function setParentText(){
+             opener.document.getElementById("pInput").value = document.getElementById("cInput").value
+        }
+   </script>
+
+    
+</head>
+<body>
+ 
+  	<br>
+	<b><font size="5">홍익워터파크 실시간 예매정보</font></b>
+	<br><br>
+  		<input type="button" value="A1" onclick="document.getElementById('cInput').value=this.value">
+  		<input type="button" value="A2" onclick="document.getElementById('cInput').value=this.value">
+  		<input type="button" value="A3" onclick="document.getElementById('cInput').value=this.value">
+  		<input type="button" value="A4" onclick="document.getElementById('cInput').value=this.value"><br><br>
+  		
+	  <input type="text" id="cInput"><br><br>
+     <input type="button" value="좌석 예약" onclick="setParentText();window.close();">
+</body>
+</html>
+

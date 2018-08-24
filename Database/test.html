@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hongik Water Park</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+		}
+		ul {
+			list-style: none;
+			margin: 10;
+                	padding : 10;
+                	overflow: hidden;
+                	background-color: white;
+			font-family: "Comic Sans MS";
+		}
+		li {
+                	float : left;
+		}
+		li a {
+                	display: block;
+                	color: #000093;
+                	text-align: center;
+                	padding: 12px 55px;
+                	text-decoration: none;
+			font-size: 13pt;
+		}
+		a:hover:not(.active) {
+                	color:#2478FF;
+		}
+		.active {
+                	border: 1px solid #2478FF;
+			background-color: #2478FF;
+			border-radius: 30px;
+			color: white;	
+			font-size: 2em;
+			font-family: "Comic Sans MS";
+		}
+		img {
+			width: 100%;
+			height: 65%;
+		}
+		
+	</style>
+	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src = "http://malsup.github.com/jquery.cycle2.js"></script>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="http://cic.hongik.ac.kr/b_team/b_team7/"><b>Hongik Water Park</b></a></li>
+		<li><a href="http://cic.hongik.ac.kr/b_team/b_team7/">Home</a></li>
+		<li><a href="#">Info.</a></li>
+		<li><a href="http://cic.hongik.ac.kr/b_team/b_team7/login.html">Login</a></li>
+		<li><a href="http://cic.hongik.ac.kr/b_team/b_team7/reser.html">Reserve</a></li>
+		<li><a href="http://cic.hongik.ac.kr/b_team/b_team7/out.html">Logout</a></li>
+	</ul>
+	<div class="cycle-slideshow" cycle-slideshow data-cycle-loader="wait" data-cycle-timeout=2000>
+		<img src="1.jpg" />
+		<img src="2.jpg" />
+		<img src="3.jpg" />
+		<img src="4.jpg" />
+		<img src="5.jpg" />
+ </html>

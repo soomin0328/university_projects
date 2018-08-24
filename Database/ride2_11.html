@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+  <title>RESERVATION</title>
+
+<script type="text/javascript">
+        function setParentText(){
+             opener.document.getElementById("pInput").value = document.getElementById("cInput").value
+        }
+   </script>
+
+   <style >
+   button{
+
+   }
+ </style>
+    
+</head>
+<body onresize="parent.resizeTo(500,600)" onload="parent.resizeTo(500,600)">
+
+ <div style="text-align: center;">
+    <br>
+  <b><font size="5">ride2 11:00 reservation</font></b>
+  <br><br>
+      <input type="button" value="A1" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="A2" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="A3" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="B1" onclick="document.getElementById('cInput').value=this.value"> <br>
+      <input type="button" value="B2" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="B3" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="C1" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="C2" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="C3" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="D1" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="D2" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="D3" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="E1" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="E2" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="E3" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="F1" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="F2" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="F3" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="G1" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="G2" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="G3" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="H1" onclick="document.getElementById('cInput').value=this.value"><br>
+      <input type="button" value="H2" onclick="document.getElementById('cInput').value=this.value">
+      <input type="button" value="H3" onclick="document.getElementById('cInput').value=this.value"><br><br><br>
+   
+
+   Selected seats :  <input type="text" id="cInput"><br><br>
+     <input type="button" value="SEAT RESERVATION" onclick="setParentText();window.close();">
+   </div>
+</body>
+</html>
+
