@@ -5,7 +5,7 @@
 2. OSPF GUI
     - NETWORK EXPERIMENTS team project.
     - Make Open Shortest Path First(OSPF) using JAVA.
-3. waterpark Homepage
+3. Waterpark Homepage
     - DATABASE team project.
     - Designed & Developed the waterpark homepage using HTML, CSS, PHP.
     - On the homepage, customers can book lockers and rides, and they can borrow swimming goods and buy food at a customer's unique number.
