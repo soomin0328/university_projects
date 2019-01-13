@@ -1,5 +1,5 @@
 # My_Projects
-1. Login UI
+1. Login GUI
     - DATA STRUCTURE AND PROGRAMMING EXERCISE project.
     - Developed Sign up & Login system.
     - Using JAVA, Database
